@@ -1,0 +1,588 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background: white;
+  font-family: 'poppins',sans-serif;
+}
+ 
+
+  .header {
+    height: 160%;
+    width: 250px;
+    padding-left: 40%; 
+   
+  }
+
+  .arial{
+    padding-right: 45px;
+    display: inline;
+    font-weight: 600;
+    font-size: large;
+    justify-content:space-between;
+    color: #004aad;
+  }
+  .ari{
+   padding-left: 80px;
+  
+    display: inline;
+    font-weight: 600;
+    font-size: 15px;
+    /* justify-content: center; */
+    color: #004aad;
+  }
+  
+
+.icony{
+  /* padding-left: 20%; */
+ font-size:large;
+  color: #004aad;
+}
+
+  
+
+  .home{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 8% 0;
+    overflow: hidden;
+}
+.home-content{
+  max-width: 630px;
+}
+  .home-content h1{
+  font-size: 50px;
+  font-weight: 600;
+  color:#004aad ;
+ 
+}
+.home-content h3{
+  font-size: 40px;
+  font-weight: 500;
+  color: #004aad;
+  
+}
+.home-content p{
+  font-size: 16px;
+  margin: 15px  0 30px; 
+  
+}
+.home-content .btn{
+
+  color:black;
+  font-size: 20px;
+  border-right: 5px solid #004aad;
+  border-top: 5px solid #004aad;
+  border-bottom: 5px solid #004aad;
+  font-weight: 600;
+  border-left: 5px solid #004aad;
+  border-radius: 12px;
+  padding: 10px;
+  
+}
+ .home-content .btn:hover{
+  color: #004aad;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 12px;
+  border: 2px solid white;
+ }
+
+ .foo{
+
+  color:black;
+  font-size: 20px;
+  border-right: 5px solid #004aad;
+  border-top: 5px solid #004aad;
+  border-bottom: 5px solid #004aad;
+  font-weight: 600;
+  border-left: 5px solid #004aad;
+  border-radius: 12px;
+  padding: 10px;
+  
+}
+.foo:hover{
+  color: #004aad;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 12px;
+  border: 2px solid white;
+ }
+ .home-img{
+  position :relative;
+  right: -7%;
+  width: 450px;
+  height: 450px;
+  transform: rotate(45deg);
+}
+
+img{
+  height: 400px;
+  width: 400px;
+}
+
+.home-img .rhombus{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #eaeaea;
+  border: 25px solid #1743e3;
+  box-shadow: -15px 15px 15px rgba(0, 0, 0, .2);
+ 
+}
+
+
+
+.home .rhombus2{
+  position: absolute;
+  top: -25%;
+  right: -25%;
+  width: 700px;
+  height: 700px;
+  background: #004aad;
+  transform: rotate(45deg);
+  z-index: -1;
+}
+
+.p1{
+        
+  font-size: larger;
+  margin-left: 10px;
+}
+.p2{
+
+  font-size: larger;
+  padding-right: 10px;
+}
+
+.navbar-toggler {
+  background-color: blue; /* Background color of the toggle bar */
+  border-color: blue;
+}
+
+.navbar-toggler-icon {
+  background-image: none;
+  color: white;
+}
+
+.navbar-toggler-icon::before {
+  content: "\2630"; /* Unicode for the hamburger icon */
+  color: white;
+  font-size: 1.25rem;
+}
+
+
+    .swiper {
+      width: 80%;
+      height: 500px;
+      margin: 0 auto; 
+    }
+
+    .swiper-wrapper {
+      display: flex; 
+    }
+
+    .swiper-slide {
+      width: 100%;
+      height: 100%;
+      flex-shrink: 0; 
+    }
+
+    .swiper-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .swiper-button-prev,
+    .swiper-button-next {
+      color: #fff; 
+    }
+  
+    .about-section {
+      padding: 50px 0;
+      background-color: #f8f9fa;
+  }
+  .team-section {
+      padding: 50px 0;
+  }
+  .image-section img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 10px;
+  }
+
+.p1, .p2 {
+  font-size: larger;
+}
+footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: black;
+  color: white;
+}
+
+.ima{ 
+
+  height:90px;
+ width: 120px;
+  display: inline;
+}
+
+.hero-title {
+  color: #004aad;
+  font-weight: 800;
+  text-align: center;
+}
+.hero-subtitle {
+  font-size: 18px;
+  color: #004aad;
+  font-weight: 700;
+  padding-top: 6px;
+}
+.mission-title {
+  color: #004aad;
+  font-weight: 600;
+  font-size: 44px;
+  text-align: center;
+}
+.mission-text {
+  font-size: 18px;
+  margin: 15px 0 30px;
+  color: black;
+}
+.cta-button {
+  color: #004aad;
+  font-weight: 500;
+  font-size: 18px;
+  padding: 12px;
+  border: 2px solid white;
+  text-decoration: none;
+  padding-top: 7px;
+}
+footer {
+  background-image: url(images/main.jpg);
+}
+.footer-text {
+  color: white;
+}
+.navbar-toggler {
+  background-color: blue !important; /* Ensures the blue color is applied */
+  border-color: blue !important;
+}
+
+.navbar-toggler-icon {
+  background-image: none !important; /* Removes the default icon background */
+  color: white !important; /* Sets the icon color to white */
+}
+
+.navbar-toggler-icon::before {
+  content: "\2630"; /* Unicode for the hamburger icon */
+  color: white !important;
+  font-size: 1.25rem;
+}
+
+.conts{
+  
+   height: 79vh; 
+  text-align: center;
+}
+.cont{
+  background-image: url(https://i.pinimg.com/564x/1f/2c/00/1f2c00ba2497f3186bb9892b07b251d9.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: auto;
+  width: auto;
+ padding-top: 18%;
+  height: 79vh; 
+ text-align: center;
+}
+.cover{
+
+  background:url(https://i.pinimg.com/564x/e7/6e/23/e76e23d365b4e74d5f4eca3807dd312a.jpg) ;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+/* Global styles for all pages */
+
+/* Base styles here */
+
+/* Media Queries */
+
+/* Styles for screens smaller than 768px (tablets and mobile devices) */
+@media (max-width: 768px) {
+  /* Navbar adjustments */
+  .navbar-brand img {
+    height: 60px; /* Adjust logo size */
+
+  }
+.navbar-toggler {
+    background-color: blue !important; /* Ensures the blue color is applied */
+    border-color: blue !important;
+}
+
+.navbar-toggler-icon {
+    background-image: none !important; /* Removes the default icon background */
+    color: white !important; /* Sets the icon color to white */
+}
+
+.navbar-toggler-icon::before {
+    content: "\2630"; /* Unicode for the hamburger icon */
+    color: white !important;
+    font-size: 1.25rem;
+}
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  /* Hero section adjustments */
+  .hero-section {
+    padding: 20px; /* Adjust padding for the hero section */
+  }
+
+  .hero-section h1 {
+    font-size: 30px; /* Adjust font size for headings */
+  }
+
+  .hero-section p {
+    font-size: 16px; /* Adjust font size for paragraphs */
+  }
+
+  /* Cover image adjustments */
+  .cover {
+    background:contain; /* Ensure the background image covers the section */
+  }
+
+  /* Team section adjustments */
+  .team-section img {
+    height: 200px; /* Adjust team member image size */
+  }
+
+  /* Footer adjustments */
+  footer {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .p1, .p2 {
+    font-size: 14px; /* Adjust font size for footer text */
+  }
+}
+
+/* Styles for screens smaller than 576px (extra small devices) */
+@media (max-width: 576px) {
+  /* Navbar adjustments */
+  .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 12px; /* Further reduce font size for very small screens */
+  }
+
+  /* Hero section adjustments */
+  .hero-section h1 {
+    font-size: 24px; /* Further reduce font size for headings */
+  }
+
+  .hero-section p {
+    font-size: 14px; /* Further reduce font size for paragraphs */
+  }
+
+  /* Team section adjustments */
+  .team-section img {
+    height: 150px; /* Further reduce team member image size */
+  }
+
+  /* Cover image adjustments */
+  .cover {
+    background-size: cover;
+    
+  }
+
+  /* Footer adjustments */
+  footer {
+    padding: 10px; /* Adjust padding for footer */
+  }
+
+  .p1, .p2 {
+    font-size: 12px; /* Further reduce font size for footer text */
+  }
+}
+/* Medium Devices (Tablets, 768px and up) */
+@media (max-width: 768px) {
+  .navbar-nav {
+    text-align: center;
+    color: #004aad;
+  }
+
+  .navbar-nav .nav-item {
+    padding-left: 0;
+  }
+
+  .home-content h1, .home-content h3 {
+    font-size: 36px; /* Adjusted font size for smaller screens */
+  }
+
+  .home-content p {
+    font-size: 14px; /* Adjusted font size for smaller screens */
+  }
+
+  .home-img {
+    width: 300px;
+    height: 300px;
+    right: -5%;
+  }
+
+  .swiper {
+    width: 100%;
+    height: 300px;
+  }
+
+  .swiper-slide img {
+    height: 100%;
+  }
+
+  .contact-cta {
+    padding: 30px;
+  }
+
+  .contact-cta h2 {
+    font-size: 36px;
+  }
+
+  .contact-cta .foo {
+    font-size: 16px;
+  }
+
+  footer {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer .p1, .footer .p2 {
+    font-size: 14px;
+  }
+
+  .contact-cta iframe {
+    height: 200px; /* Adjust iframe height for smaller screens */
+  }
+}
+
+/* Small Devices (Phones, 576px and up) */
+@media (max-width: 576px) {
+  .navbar-nav {
+    font-size: 14px;
+  }
+
+  .navbar-toggler {
+    font-size: 16px;
+    color:#004aad ;
+  }
+
+  .home-content h1 {
+    font-size: 28px; /* Adjusted font size for smaller screens */
+  }
+
+  .home-content h3 {
+    font-size: 24px; /* Adjusted font size for smaller screens */
+  }
+
+  .home-content p {
+    font-size: 12px; /* Adjusted font size for smaller screens */
+  }
+
+  .home-img {
+    width: 250px;
+    height: 250px;
+    right: 0%;
+  }
+
+  .contact-cta h2 {
+    font-size: 30px;
+  }
+
+  .contact-cta .foo {
+    font-size: 14px;
+  }
+
+  footer {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  .contact-cta iframe {
+    height: 150px; /* Adjust iframe height for smaller screens */
+  }
+}
+/* General responsive styles */
+@media (max-width: 768px) {
+  .hero-section, .home-content, .header {
+      padding: 20px;
+      text-align: center;
+  }
+  .home-content h1 {
+    color: #eaeaea;
+  }
+  .home-content h3{
+    color: #eaeaea;
+  }
+.home-content .btn{
+  border-right: 5px solid white;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  border-left: 5px solid white;
+}
+.home-content .btn:hover{
+  color:#eaeaea;
+}
+  .hero-section img, .home-content img {
+      max-width: 100%;
+      height: auto;
+  }
+
+  .header .navbar {
+      flex-direction: column;
+  }
+  .cont{
+  
+background: none;
+ 
+  }
+  .conts{
+    height: 250px;
+    padding-top: 0px;
+    justify-content: flex-end;
+  }
+  .our-mission h2{
+    padding-top: 150px;
+  }
+ .header{
+  height: auto;
+ }
+}
+
+/* Additional adjustments for smaller screens */
+@media (max-width: 576px) {
+  .hero-section, .home-content, .header {
+      padding: 10px;
+  }
+
+  .header .navbar-brand {
+      font-size: 1.5rem;
+  }
+}
